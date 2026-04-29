@@ -22,7 +22,7 @@ export const Hero = () => {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary/60" />
             <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-primary" />
           </span>
-          Новое поколение AI-операционных систем
+          AI Business Operating System
         </motion.div>
 
         <motion.h1
@@ -38,8 +38,8 @@ export const Hero = () => {
           {...fade(0.2)}
           className="mx-auto mt-6 max-w-2xl text-balance text-center text-lg text-muted-foreground md:text-xl"
         >
-          CRM, мессенджеры, AI-сотрудники и финансы — в одной системе, которая
-          реально работает.
+          Aivio объединяет клиентов, сообщения, сделки, задачи, AI-сотрудников
+          и финансы в одну операционную систему для бизнеса.
         </motion.p>
 
         <motion.div {...fade(0.3)} className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -47,7 +47,7 @@ export const Hero = () => {
             size="lg"
             className="group h-12 rounded-full bg-primary px-6 text-base font-medium text-primary-foreground shadow-elevated hover:bg-primary/90"
           >
-            Начать использовать Aivio
+            Начать управлять бизнесом через Aivio
             <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>
           <Button
@@ -56,7 +56,7 @@ export const Hero = () => {
             className="h-12 rounded-full border-border bg-surface/60 px-6 text-base font-medium backdrop-blur hover:bg-surface"
           >
             <Play className="mr-1 h-4 w-4" />
-            Посмотреть как это работает
+            Посмотреть систему в действии
           </Button>
         </motion.div>
 
