@@ -18,33 +18,26 @@ export const CTASection = () => {
 
           <div className="relative">
             <h2 className="font-display text-4xl font-bold tracking-tight md:text-6xl">
-              <span className="text-gradient">Операционная система</span>
+              <span className="text-gradient">Начните управлять</span>
               <br />
-              <span className="text-gradient-primary">для вашего бизнеса</span>
+              <span className="text-gradient-primary">бизнесом как системой</span>
             </h2>
             <p className="mx-auto mt-5 max-w-xl text-lg text-muted-foreground">
-              14 дней бесплатно. Без карты. Настройка под ключ за 1 день.
+              Aivio помогает видеть всё, что происходит в бизнесе, и превращать хаос в действия.
             </p>
-            <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
+            <div className="mt-10 flex flex-col items-center justify-center gap-3">
               <Button
                 size="lg"
                 className="group h-12 rounded-full bg-primary px-8 text-base font-medium text-primary-foreground shadow-elevated hover:bg-primary/90"
               >
-                Начать управлять бизнесом через Aivio
+                Попробовать Aivio
                 <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="h-12 rounded-full border-border bg-surface/60 px-8 text-base backdrop-blur"
-              >
-                Посмотреть систему в действии
               </Button>
             </div>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-6 text-xs text-muted-foreground">
-              <span>✓ Бесплатно 14 дней</span>
-              <span>✓ Поддержка на русском</span>
-              <span>✓ Данные в России</span>
+              <span>✓ Подключение за 1 день</span>
+              <span>✓ Единый контур для команды</span>
+              <span>✓ Прогноз и действия в одном месте</span>
             </div>
           </div>
         </motion.div>

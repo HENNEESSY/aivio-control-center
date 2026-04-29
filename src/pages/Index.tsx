@@ -8,6 +8,7 @@ import { ProductDemo } from "@/components/aivio/ProductDemo";
 import { AIWorkers } from "@/components/aivio/AIWorkers";
 import { FinanceRadar } from "@/components/aivio/FinanceRadar";
 import { Integrations } from "@/components/aivio/Integrations";
+import { Templates } from "@/components/aivio/Templates";
 import { CTASection } from "@/components/aivio/CTASection";
 import { Footer } from "@/components/aivio/Footer";
 import { AssistantButton } from "@/components/aivio/AssistantButton";
@@ -26,6 +27,7 @@ const Index = () => {
         <AIWorkers />
         <FinanceRadar />
         <Integrations />
+        <Templates />
         <CTASection />
       </main>
       <Footer />
