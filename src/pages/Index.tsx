@@ -2,6 +2,7 @@ import { Navbar } from "@/components/aivio/Navbar";
 import { Hero } from "@/components/aivio/Hero";
 import { Problem } from "@/components/aivio/Problem";
 import { Solution } from "@/components/aivio/Solution";
+import { NotCRM } from "@/components/aivio/NotCRM";
 import { HowItWorks } from "@/components/aivio/HowItWorks";
 import { ProductDemo } from "@/components/aivio/ProductDemo";
 import { AIWorkers } from "@/components/aivio/AIWorkers";
@@ -19,6 +20,7 @@ const Index = () => {
         <Hero />
         <Problem />
         <Solution />
+        <NotCRM />
         <HowItWorks />
         <ProductDemo />
         <AIWorkers />

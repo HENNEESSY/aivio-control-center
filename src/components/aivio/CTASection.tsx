@@ -18,9 +18,9 @@ export const CTASection = () => {
 
           <div className="relative">
             <h2 className="font-display text-4xl font-bold tracking-tight md:text-6xl">
-              <span className="text-gradient">Начните управлять</span>
+              <span className="text-gradient">Операционная система</span>
               <br />
-              <span className="text-gradient-primary">бизнесом по-новому</span>
+              <span className="text-gradient-primary">для вашего бизнеса</span>
             </h2>
             <p className="mx-auto mt-5 max-w-xl text-lg text-muted-foreground">
               14 дней бесплатно. Без карты. Настройка под ключ за 1 день.
@@ -30,7 +30,7 @@ export const CTASection = () => {
                 size="lg"
                 className="group h-12 rounded-full bg-primary px-8 text-base font-medium text-primary-foreground shadow-elevated hover:bg-primary/90"
               >
-                Попробовать Aivio
+                Начать управлять бизнесом через Aivio
                 <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
               <Button
@@ -38,7 +38,7 @@ export const CTASection = () => {
                 variant="outline"
                 className="h-12 rounded-full border-border bg-surface/60 px-8 text-base backdrop-blur"
               >
-                Запросить демо
+                Посмотреть систему в действии
               </Button>
             </div>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-6 text-xs text-muted-foreground">
