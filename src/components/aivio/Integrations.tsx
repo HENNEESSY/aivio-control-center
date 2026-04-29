@@ -17,41 +17,48 @@ const Google = () => (
 const OneC = () => (
   <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><rect x="2" y="3" width="20" height="18" rx="3" fill="currentColor" opacity=".15"/><text x="12" y="16" fontSize="9" fontWeight="800" fill="currentColor" textAnchor="middle" fontFamily="Inter, sans-serif">1C</text></svg>
 );
-const Slack = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><path d="M5.042 15.165a2.528 2.528 0 01-2.52 2.523A2.528 2.528 0 010 15.165a2.527 2.527 0 012.522-2.52h2.52v2.52zM6.313 15.165a2.527 2.527 0 012.521-2.52 2.527 2.527 0 012.521 2.52v6.313A2.528 2.528 0 018.834 24a2.528 2.528 0 01-2.521-2.522v-6.313zM8.834 5.042a2.528 2.528 0 01-2.521-2.52A2.528 2.528 0 018.834 0a2.528 2.528 0 012.521 2.522v2.52H8.834zM8.834 6.313a2.528 2.528 0 012.521 2.521 2.528 2.528 0 01-2.521 2.521H2.522A2.528 2.528 0 010 8.834a2.528 2.528 0 012.522-2.521h6.312zM18.956 8.834a2.528 2.528 0 012.522-2.521A2.528 2.528 0 0124 8.834a2.528 2.528 0 01-2.522 2.521h-2.522V8.834zM17.688 8.834a2.528 2.528 0 01-2.523 2.521 2.527 2.527 0 01-2.52-2.521V2.522A2.527 2.527 0 0115.165 0a2.528 2.528 0 012.523 2.522v6.312zM15.165 18.956a2.528 2.528 0 012.523 2.522A2.528 2.528 0 0115.165 24a2.527 2.527 0 01-2.52-2.522v-2.522h2.52zM15.165 17.688a2.527 2.527 0 01-2.52-2.523 2.526 2.526 0 012.52-2.52h6.313A2.527 2.527 0 0124 15.165a2.528 2.528 0 01-2.522 2.523h-6.313z"/></svg>
+const VK = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><path d="M15.07 2H8.93C3.33 2 2 3.33 2 8.93v6.14C2 20.67 3.33 22 8.93 22h6.14c5.6 0 6.93-1.33 6.93-6.93V8.93C22 3.33 20.67 2 15.07 2zm3.07 14.27h-1.46c-.55 0-.72-.44-1.71-1.43-.86-.83-1.24-.94-1.45-.94-.3 0-.39.09-.39.5v1.31c0 .35-.11.56-1.04.56-1.54 0-3.24-.93-4.45-2.66-1.81-2.55-2.31-4.47-2.31-4.86 0-.21.09-.4.5-.4h1.46c.37 0 .51.17.65.57.72 2.07 1.92 3.88 2.42 3.88.19 0 .27-.09.27-.56V10.1c-.06-.99-.58-1.07-.58-1.42 0-.17.14-.34.36-.34h2.29c.31 0 .42.16.42.53v2.91c0 .31.13.42.22.42.19 0 .35-.11.69-.45 1.06-1.18 1.81-3.01 1.81-3.01.1-.21.27-.41.64-.41h1.46c.44 0 .53.22.44.53-.19.85-2 3.41-2 3.41-.16.26-.22.38 0 .67.16.21.69.66 1.04 1.07.65.73 1.13 1.34 1.27 1.77.11.42-.11.64-.55.64z"/></svg>
 );
-const Stripe = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><path d="M13.479 9.883c-1.626-.604-2.512-1.067-2.512-1.803 0-.622.511-.977 1.42-.977 1.668 0 3.372.652 4.541 1.232l.658-4.104c-.927-.444-2.836-1.155-5.523-1.155-1.892 0-3.469.493-4.595 1.402C6.27 5.43 5.609 6.643 5.609 8.117c0 2.679 1.624 3.834 4.282 4.795 1.7.604 2.275 1.038 2.275 1.696 0 .643-.55 1.014-1.55 1.014-1.402 0-3.685-.685-5.165-1.547L4.794 18.22c1.286.728 3.66 1.467 6.135 1.467 2.005 0 3.677-.475 4.815-1.371 1.273-.997 1.926-2.488 1.926-4.408 0-2.747-1.671-3.872-4.191-4.99v-.035z"/></svg>
+const GoogleCal = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><rect x="3" y="4" width="18" height="17" rx="3" fill="currentColor" opacity=".15"/><rect x="3" y="4" width="18" height="4" rx="2" fill="currentColor"/><text x="12" y="17.5" fontSize="7" fontWeight="800" fill="currentColor" textAnchor="middle" fontFamily="Inter, sans-serif">31</text></svg>
 );
-const Notion = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><path d="M4.459 4.208c.746.606 1.026.56 2.428.466l13.215-.793c.28 0 .047-.28-.046-.326L17.86 1.968c-.42-.326-.981-.7-2.055-.607L3.01 2.295c-.466.046-.56.28-.374.466zm.793 3.08v13.904c0 .747.373 1.027 1.214.98l14.523-.84c.841-.046.935-.56.935-1.167V6.354c0-.606-.233-.933-.748-.887l-15.177.887c-.56.047-.747.327-.747.933zm14.337.745c.093.42 0 .84-.42.888l-.7.14v10.264c-.608.327-1.168.514-1.635.514-.748 0-.935-.234-1.495-.933l-4.577-7.186v6.952L12.21 19s0 .84-1.168.84l-3.222.186c-.093-.186 0-.653.327-.746l.84-.233V9.854L7.822 9.76c-.094-.42.14-1.026.793-1.073l3.456-.233 4.764 7.279v-6.44l-1.215-.139c-.093-.514.28-.887.747-.933zM1.936.55l13.31-.98c1.634-.14 2.055-.047 3.082.7l4.249 2.986c.7.513.934.653.934 1.213v16.378c0 1.026-.373 1.634-1.68 1.726l-15.458.934c-.98.047-1.448-.093-1.962-.747l-3.129-4.06c-.56-.747-.793-1.306-.793-1.96V2.43C.49 1.59.86.876 1.936.55z"/></svg>
+const GoogleSheets = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><rect x="4" y="2" width="16" height="20" rx="2" fill="currentColor" opacity=".15"/><path d="M7 10h10M7 14h10M7 18h10M11 8v12M15 8v12" stroke="currentColor" strokeWidth="1.4" fill="none"/></svg>
 );
-const HubSpot = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><path d="M18.164 7.93V5.084a2.198 2.198 0 001.267-1.978v-.067A2.2 2.2 0 0017.238.845h-.067a2.2 2.2 0 00-2.193 2.194v.067a2.196 2.196 0 001.252 1.973l.013.005v2.852a6.21 6.21 0 00-2.969 1.31l.012-.01-7.85-6.108a2.495 2.495 0 10-1.158 1.524l-.011-.018L11.928 8.7a6.197 6.197 0 00-1.04 3.45c0 1.31.41 2.526 1.108 3.523l-.013-.02-2.35 2.35a2 2 0 00-.578-.093 2.024 2.024 0 102.024 2.025 1.998 1.998 0 00-.092-.578l.003.012 2.323-2.324a6.22 6.22 0 109.301-8.106l-.005-.005a6.231 6.231 0 00-4.443-1.96l-.003-.001zm-1.06 9.339A3.193 3.193 0 113.42-3.114v.005a3.192 3.192 0 01-.003 6.387l-.003-.001z"/></svg>
+const Yandex = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><circle cx="12" cy="12" r="10" fill="currentColor" opacity=".15"/><text x="12" y="16.5" fontSize="13" fontWeight="800" fill="currentColor" textAnchor="middle" fontFamily="Inter, sans-serif">Я</text></svg>
 );
-const AmoCRM = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><circle cx="12" cy="12" r="9" fill="currentColor" opacity=".15"/><text x="12" y="15" fontSize="6.5" fontWeight="800" fill="currentColor" textAnchor="middle" fontFamily="Inter, sans-serif">amo</text></svg>
+const MoySklad = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><rect x="2" y="7" width="20" height="13" rx="2" fill="currentColor" opacity=".15"/><path d="M2 11h20M8 7V4h8v3" stroke="currentColor" strokeWidth="1.6" fill="none"/></svg>
 );
-const Zoom = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><rect x="2" y="6" width="14" height="12" rx="3" fill="currentColor"/><path d="M22 8l-5 4 5 4V8z" fill="currentColor"/></svg>
+const Bitrix = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><circle cx="12" cy="12" r="10" fill="currentColor" opacity=".15"/><text x="12" y="15.5" fontSize="6" fontWeight="800" fill="currentColor" textAnchor="middle" fontFamily="Inter, sans-serif">B24</text></svg>
 );
-const YooKassa = () => (
-  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><circle cx="12" cy="12" r="10" fill="currentColor" opacity=".15"/><text x="12" y="16" fontSize="11" fontWeight="800" fill="currentColor" textAnchor="middle" fontFamily="Inter, sans-serif">¥</text></svg>
+const OpenRouter = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><circle cx="6" cy="12" r="2.5" fill="currentColor"/><circle cx="18" cy="6" r="2.5" fill="currentColor"/><circle cx="18" cy="18" r="2.5" fill="currentColor"/><path d="M8 11l8-4M8 13l8 4" stroke="currentColor" strokeWidth="1.6" fill="none"/></svg>
+);
+const N8n = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><circle cx="5" cy="12" r="2" fill="currentColor"/><circle cx="12" cy="6" r="2" fill="currentColor"/><circle cx="12" cy="18" r="2" fill="currentColor"/><circle cx="19" cy="12" r="2" fill="currentColor"/><path d="M7 12h3M14 12h3M12 8v8" stroke="currentColor" strokeWidth="1.6"/></svg>
+);
+const Make = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" className="h-7 w-7"><path d="M5 3l4 18M11 3l-2 18M15 3l4 18M19 3l-2 18" stroke="currentColor" strokeWidth="2.2" fill="none" strokeLinecap="round"/></svg>
 );
 
 const items = [
   { Icon: Telegram, name: "Telegram" },
   { Icon: WhatsApp, name: "WhatsApp" },
   { Icon: Instagram, name: "Instagram" },
-  { Icon: Google, name: "Google" },
+  { Icon: VK, name: "VK" },
+  { Icon: GoogleCal, name: "Google Calendar" },
+  { Icon: GoogleSheets, name: "Google Sheets" },
+  { Icon: Yandex, name: "Yandex" },
   { Icon: OneC, name: "1C" },
-  { Icon: Slack, name: "Slack" },
-  { Icon: Stripe, name: "Stripe" },
-  { Icon: Notion, name: "Notion" },
-  { Icon: HubSpot, name: "HubSpot" },
-  { Icon: AmoCRM, name: "amoCRM" },
-  { Icon: Zoom, name: "Zoom" },
-  { Icon: YooKassa, name: "ЮKassa" },
+  { Icon: MoySklad, name: "МойСклад" },
+  { Icon: Bitrix, name: "Bitrix24" },
+  { Icon: OpenRouter, name: "OpenRouter" },
+  { Icon: N8n, name: "n8n" },
+  { Icon: Make, name: "Make" },
 ];
 
 export const Integrations = () => {
@@ -61,7 +68,7 @@ export const Integrations = () => {
         <SectionHeader
           eyebrow="Интеграции"
           title="Подключается к вашему бизнесу за минуты"
-          description="Более 80 готовых интеграций — от мессенджеров до 1С и платёжных систем."
+          description="Мессенджеры, учётные системы, AI-провайдеры и автоматизации — Aivio встраивается в ваш стек без боли."
         />
 
         <div className="mt-16 grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-6">
