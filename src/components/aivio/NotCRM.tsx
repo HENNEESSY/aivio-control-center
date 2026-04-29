@@ -3,18 +3,18 @@ import { Check, X } from "lucide-react";
 import { SectionHeader } from "./SectionHeader";
 
 const crmItems = [
-  "Хранит клиентов",
-  "Требует ручного ввода",
-  "Не видит финансы",
-  "Не понимает сообщения",
+  "хранит клиентов",
+  "требует ручного ввода",
+  "не понимает сообщения",
+  "не видит финансы",
 ];
 
 const aivioItems = [
-  "Анализирует входящие заявки",
-  "Создаёт сделки автоматически",
-  "Предлагает ответы клиентам",
-  "Запускает задачи команде",
-  "Показывает финансовые риски",
+  "анализирует входящие заявки",
+  "создаёт сделки автоматически",
+  "предлагает ответы",
+  "запускает задачи",
+  "показывает финансовые риски",
 ];
 
 export const NotCRM = () => {
@@ -24,7 +24,7 @@ export const NotCRM = () => {
         <SectionHeader
           eyebrow="Позиционирование"
           title="Это не CRM. Это центр управления бизнесом."
-          description="CRM хранит сделки. Aivio управляет процессами: принимает сообщения, анализирует клиентов, создаёт задачи, двигает сделки и предупреждает о финансовых рисках."
+          description="Обычная CRM фиксирует базу клиентов и сделки постфактум. Aivio видит входящий поток, запускает действия и помогает управлять всей операционной системой бизнеса."
         />
 
         <div className="mx-auto mt-16 grid max-w-5xl gap-5 md:grid-cols-2">
@@ -74,7 +74,7 @@ export const NotCRM = () => {
                   Aivio
                 </span>
                 <span className="rounded-full bg-primary/15 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-primary">
-                  Operating system
+                  Операционная система
                 </span>
               </div>
               <h3 className="font-display text-2xl font-semibold text-gradient">

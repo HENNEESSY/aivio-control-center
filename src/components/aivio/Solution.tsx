@@ -3,12 +3,12 @@ import { MessageCircle, Users, DollarSign, Bot, Workflow, BarChart3 } from "luci
 import { SectionHeader } from "./SectionHeader";
 
 const pillars = [
-  { Icon: MessageCircle, label: "Мессенджеры" },
-  { Icon: Users, label: "CRM" },
+  { Icon: MessageCircle, label: "Входящие" },
+  { Icon: Users, label: "Клиенты" },
   { Icon: Bot, label: "AI-сотрудники" },
-  { Icon: DollarSign, label: "Финансы" },
-  { Icon: Workflow, label: "Автоматизация" },
-  { Icon: BarChart3, label: "Аналитика" },
+  { Icon: DollarSign, label: "Финансовый радар" },
+  { Icon: Workflow, label: "Автоматизации" },
+  { Icon: BarChart3, label: "Центр управления" },
 ];
 
 export const Solution = () => {
@@ -17,8 +17,8 @@ export const Solution = () => {
       <div className="container">
         <SectionHeader
           eyebrow="Решение"
-          title="Aivio собирает всё в одну систему"
-          description="Все клиенты, сообщения, сделки и деньги — в одном интерфейсе, который управляется AI."
+          title="Aivio собирает весь бизнес в одну операционную систему"
+          description="Клиенты, сообщения, задачи, воронка и финансы работают в одном спокойном интерфейсе, где AI не помогает точечно, а двигает процессы вперёд."
         />
 
         <div className="mt-16 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">

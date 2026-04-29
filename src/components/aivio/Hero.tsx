@@ -22,7 +22,7 @@ export const Hero = () => {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary/60" />
             <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-primary" />
           </span>
-          AI Business Operating System
+          AI-операционная система для бизнеса
         </motion.div>
 
         <motion.h1
@@ -47,7 +47,7 @@ export const Hero = () => {
             size="lg"
             className="group h-12 rounded-full bg-primary px-6 text-base font-medium text-primary-foreground shadow-elevated hover:bg-primary/90"
           >
-            Начать управлять бизнесом через Aivio
+            Начать использовать Aivio
             <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>
           <Button
@@ -56,8 +56,31 @@ export const Hero = () => {
             className="h-12 rounded-full border-border bg-surface/60 px-6 text-base font-medium backdrop-blur hover:bg-surface"
           >
             <Play className="mr-1 h-4 w-4" />
-            Посмотреть систему в действии
+            Посмотреть как работает
           </Button>
+        </motion.div>
+
+        <motion.div
+          {...fade(0.4)}
+          className="mx-auto mt-8 grid max-w-3xl gap-3 text-left sm:grid-cols-3"
+        >
+          {[
+            { label: "Скорость ответа", value: "< 5 секунд" },
+            { label: "Рутинных действий", value: "меньше на 70%" },
+            { label: "Финансовых рисков", value: "видно заранее" },
+          ].map((item) => (
+            <div
+              key={item.label}
+              className="rounded-2xl border border-border bg-surface/50 px-4 py-3 backdrop-blur"
+            >
+              <div className="text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
+                {item.label}
+              </div>
+              <div className="mt-1 font-display text-lg font-semibold text-foreground">
+                {item.value}
+              </div>
+            </div>
+          ))}
         </motion.div>
 
         <motion.div {...fade(0.5)} className="mt-16">
