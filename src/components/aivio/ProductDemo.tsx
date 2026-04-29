@@ -138,12 +138,6 @@ export const ProductDemo = () => {
   );
 };
 
-interface NodeProps {
-  step: typeof import("./ProductDemo");
-  index: number;
-  arrow: boolean;
-}
-
 const FlowNode = ({ step, index, arrow }: { step: { Icon: any; label: string; sub: string; detail: string }; index: number; arrow: boolean }) => {
   return (
     <>
