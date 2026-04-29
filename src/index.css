@@ -8,35 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Aivio dark premium palette */
+    --background: 212 30% 6%;          /* #0B0F14 */
+    --foreground: 210 25% 96%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --surface: 213 24% 9%;             /* #11161D */
+    --surface-elevated: 213 22% 12%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --card: 213 24% 9%;
+    --card-foreground: 210 25% 96%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --popover: 213 24% 9%;
+    --popover-foreground: 210 25% 96%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --primary: 222 100% 65%;           /* #4F7CFF */
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 222 100% 72%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --secondary: 213 22% 14%;
+    --secondary-foreground: 210 25% 96%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --muted: 213 18% 14%;
+    --muted-foreground: 215 15% 60%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --accent: 222 100% 65%;
+    --accent-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --destructive: 0 70% 55%;
+    --destructive-foreground: 0 0% 100%;
 
-    --radius: 0.5rem;
+    --success: 152 65% 50%;
+
+    --border: 213 22% 16%;             /* #1E2630 */
+    --input: 213 22% 16%;
+    --ring: 222 100% 65%;
+
+    --radius: 0.875rem;
+
+    --gradient-hero: radial-gradient(60% 50% at 50% 0%, hsl(222 100% 65% / 0.18) 0%, transparent 70%);
+    --gradient-primary: linear-gradient(135deg, hsl(222 100% 65%), hsl(232 100% 70%));
+    --gradient-surface: linear-gradient(180deg, hsl(213 24% 11%), hsl(213 24% 8%));
+    --gradient-text: linear-gradient(135deg, hsl(210 25% 98%), hsl(215 20% 70%));
+
+    --shadow-glow: 0 0 80px -10px hsl(222 100% 65% / 0.45);
+    --shadow-card: 0 1px 0 0 hsl(0 0% 100% / 0.04) inset, 0 20px 40px -20px hsl(212 30% 2% / 0.6);
+    --shadow-elevated: 0 30px 80px -30px hsl(222 100% 50% / 0.35);
+
+    --transition-smooth: cubic-bezier(0.22, 1, 0.36, 1);
 
     --sidebar-background: 0 0% 98%;
 
@@ -56,7 +74,7 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 212 30% 6%;
     --foreground: 210 40% 98%;
 
     --card: 222.2 84% 4.9%;
@@ -100,6 +118,43 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "ss01", "cv01", "cv11";
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: var(--gradient-text);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .text-gradient-primary {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, hsl(var(--border) / 0.5) 1px, transparent 1px),
+      linear-gradient(to bottom, hsl(var(--border) / 0.5) 1px, transparent 1px);
+    background-size: 64px 64px;
+  }
+  .bg-noise {
+    background-image: radial-gradient(hsl(var(--foreground) / 0.025) 1px, transparent 1px);
+    background-size: 3px 3px;
+  }
+  .glass {
+    background: hsl(var(--surface) / 0.6);
+    border: 1px solid hsl(var(--border));
+  }
+  .shadow-glow { box-shadow: var(--shadow-glow); }
+  .shadow-card { box-shadow: var(--shadow-card); }
+  .shadow-elevated { box-shadow: var(--shadow-elevated); }
 }
